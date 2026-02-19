@@ -1,7 +1,7 @@
 import { Subject, Question, QuizType } from '../types';
 
 // Comprehensive question bank for all subjects and question types
-export const questionBank: Record<Subject, Record<QuizType, Question[]>> = {
+export const questionBank: Record<Subject, Partial<Record<QuizType, Question[]>>> = {
   [Subject.Maths]: {
     'multiple-choice': [
       {
