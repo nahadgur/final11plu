@@ -125,7 +125,7 @@ const STEP_LABELS = ['School Type', 'Test Setup', 'Confirm'];
 
 // ─── Page ────────────────────────────────────────────────────────────────────
 
-export default function MockExamsPage() {
+function MockExamsPageInner() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const mode = (searchParams.get('mode') || 'general').toLowerCase();
@@ -563,5 +563,14 @@ export default function MockExamsPage() {
 
       <SiteFooter />
     </>
+  );
+}
+
+import { Suspense } from 'react';
+export default function MockExamsPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-white" />}>
+      <MockExamsPageInner />
+    </Suspense>
   );
 }
