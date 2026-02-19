@@ -1,0 +1,167 @@
+{
+  "schoolId": "spgs-girls",
+  "schoolName": "St Paul's Girls' School",
+  "version": "v1",
+  "summary": "A two-paper Maths assessment with a clear split between speed/accuracy and deep reasoning. Paper 1 begins with a timed multiple-choice sprint (no working), then shifts to multi-step word problems, logic/set questions, spatial reasoning, codes and patterns; Paper 2 is only 5 questions but highly demanding, featuring proof-style explanations, combinatorics, modular remainders, and divisibility/factorial reasoning.",
+  "defaults": {
+    "mixedPaper": {
+      "durationMins": 75,
+      "questionCount": 26,
+      "sections": [
+        {
+          "name": "Maths",
+          "share": 0.5
+        },
+        {
+          "name": "English",
+          "share": 0.5
+        }
+      ]
+    },
+    "mathsOnly": {
+      "durationMins": 75,
+      "questionCount": 26
+    },
+    "englishOnly": {
+      "durationMins": 45,
+      "questionCount": 25
+    }
+  },
+  "maths": {
+    "topicWeighting": [
+      {
+        "topic": "arithmetic fluency (decimals, percentages, fraction-of-a-fraction, division)",
+        "weight": 0.14
+      },
+      {
+        "topic": "time and timetables (durations, backwards scheduling, delays)",
+        "weight": 0.12
+      },
+      {
+        "topic": "ratio, rates and unit conversions (m/s ↔ mph; method explanation)",
+        "weight": 0.08
+      },
+      {
+        "topic": "algebraic thinking (averages/unknowns, forming expressions from rules)",
+        "weight": 0.08
+      },
+      {
+        "topic": "patterns, sequences and structures (number towers, pyramids/triangular numbers)",
+        "weight": 0.1
+      },
+      {
+        "topic": "logic and sets (Venn-style counting, constraint puzzles)",
+        "weight": 0.1
+      },
+      {
+        "topic": "combinatorics (ordered combinations of 1s and 2s; recursion/proof)",
+        "weight": 0.1
+      },
+      {
+        "topic": "geometry reasoning (angle-sum proof; parallel line facts; shaded-angle totals)",
+        "weight": 0.1
+      },
+      {
+        "topic": "spatial reasoning (dice views / 3D orientation)",
+        "weight": 0.05
+      },
+      {
+        "topic": "coordinates/grids and area (area from plotted polygon)",
+        "weight": 0.05
+      },
+      {
+        "topic": "codes and permutations (letter-digit code matching/anagrams)",
+        "weight": 0.03
+      },
+      {
+        "topic": "number theory (remainders/CRT-style, divisibility, factorials, modular arithmetic)",
+        "weight": 0.05
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "multiple-choice",
+        "weight": 0.25
+      },
+      {
+        "type": "fill-in-the-blank",
+        "weight": 0.18
+      },
+      {
+        "type": "ordering",
+        "weight": 0.02
+      },
+      {
+        "type": "short-answer",
+        "weight": 0.55
+      }
+    ],
+    "formatRules": [
+      "Overall structure is explicitly two papers totalling 75 minutes: Paper 1 is 35 minutes with two invigilator-timed sections; Paper 2 is 40 minutes with 5 long questions. \n\nSt-Pauls-Girls-School-11-Plus-S…\n\n",
+      "Paper 1 Section 1: exactly 10 multiple-choice questions with five options (A–E) and an answer grid; instructions state 'does not require any workings'.",
+      "Paper 1 Section 2 and all of Paper 2: working must be shown in provided space; instructions say not to rub out working and imply method marks.",
+      "Candidates are told they may not finish and should move on if stuck; generators should create a clear difficulty ramp with at least one high-ceiling final question.",
+      "Include regular real-life time planning and timetable questions (including backwards planning to a serving time and delayed train stops). Answers often require hours/minutes and careful handling of “next day”.",
+      "Include at least one 'use each number/symbol only once' construction task (two different calculations from a fixed multiset).",
+      "Include at least one spatial reasoning item about cube/die views requiring deducing an unseen face (online: multiple-choice or select-from-options rather than freehand drawing).",
+      "Include at least one structure/pattern problem such as a number tower (adjacent sums make the block above) and/or stacked-ball pyramid layers and totals (triangular/tetrahedral style counting).",
+      "Include at least one set-counting question with totals and overlap (e.g., two preferences with an intersection) asking for 'only A' and 'neither'.",
+      "Include at least one coordinate-grid area question: polygon vertices plotted on a grid, compute exact area (online: show a clear grid; accept numeric area in cm²).",
+      "Include at least one average/age or mean-based unknown problem with relational constraints (two same age; one older by a fixed amount).",
+      "Include at least one coding/permutation task where letters map one-to-one to digits and multiple anagrams must be matched to codes; avoid copying the same word set.",
+      "Paper 2 emphasises proof/explanation: include at least one prompt that explicitly asks to 'prove' or 'explain how you know', and keep expected response short but logically complete.",
+      "Include a combinatorics-with-proof question: counting ordered sums of 1s and 2s to make n, building from small n to a larger n; require a justification (often via recursion from previous results).",
+      "Include a geometry proof prompt using parallel line facts (e.g., Z-angles) to justify the triangle angle sum, then an extension asking for a total of multiple shaded angles.",
+      "Include a speed conversion mini-unit: compute m/s from distance/time, convert m/s to mph via a given rule, then ask to invert the rule (mph to m/s) and apply it to a new value; require a sentence for the inversion method.",
+      "Include at least one remainder/CRT-style constraints problem, solved by listing sequences that satisfy each remainder and finding common terms within a range; specify ranges such as 'more than 25 but less than 40'.",
+      "Include number theory with defined products: products of first n odds/evens and factorials; ask for remainders modulo small numbers (2, 3, 5, 15), rewarding recognition of divisibility rather than calculation.",
+      "Rounding is not a dominant feature; when needed, it should be explicitly stated. Units should be explicit (g, cm, metres, miles per hour, minutes/hours).",
+      "UNKNOWN: exact mark scheme and the school’s target distribution of full-mark vs method-mark answers; generator should support partial-credit steps and multi-part scaffolding."
+    ],
+    "difficultyNotes": "Harder than many 11+ Maths papers because it combines strict timing (MCQ sprint) with genuinely Olympiad-adjacent reasoning: proof-style explanations, recursion/combinatorics, modular remainders in ranges, and divisibility arguments for very large products. Even familiar topics (time, averages, angles) are presented in multi-step forms that punish rushed reading."
+  },
+  "english": {
+    "topicWeighting": [
+      {
+        "topic": "UNKNOWN: no English content provided",
+        "weight": 1.0
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "short-answer",
+        "weight": 1.0
+      }
+    ],
+    "formatRules": [
+      "UNKNOWN: no English paper text was provided for this school; do not infer passage style, question stems, or writing tasks until English papers are supplied."
+    ],
+    "difficultyNotes": "UNKNOWN: English difficulty cannot be inferred without English papers."
+  },
+  "markingAndFeedback": {
+    "commonWrongAnswers": [
+      "In Paper 1 MCQ, misreading decimals/percentages or doing a quick calculation error under time pressure.",
+      "Time questions: mixing up backwards scheduling, forgetting delays at intermediate stops, or mishandling journeys that cross midnight.",
+      "Rate conversion: applying the given '×9 ÷4' rule in the wrong direction, or not expressing the inverse conversion clearly.",
+      "Angle reasoning: assuming diagrams are to scale instead of using parallel-line facts and triangle angle-sum logic.",
+      "Combinatorics (1s and 2s): double-counting or treating order as irrelevant; failing to link counts for n to counts for n−1 and n−2.",
+      "Remainders-in-a-range: finding a valid remainder class but missing the range constraint or skipping alternative common values.",
+      "Large-product remainder questions: attempting huge multiplication instead of using divisibility arguments (e.g., presence of a factor 3 or 5).",
+      "Set-counting: forgetting to subtract the overlap, or miscomputing 'neither' from the total.",
+      "Grid area: counting squares inconsistently (half-squares), or forgetting units (cm²).",
+      "Dice views: not tracking opposite/adjacent faces consistently, leading to an impossible final face."
+    ],
+    "explanationTone": "Child-friendly but intellectually honest: show the key idea first (e.g., 'list numbers with the right remainder', 'use factors, not multiplication'), then 2–5 neat steps, then a short check that confirms constraints (range, units, totals, or remainder)."
+  },
+  "generatorHints": [
+    "Do NOT copy any original questions.",
+    "Match the flavour, not the exact content.",
+    "Avoid references to printing or PDFs.",
+    "Keep questions suitable for an online timed exam.",
+    "Preserve the exam structure: Paper 1 (35 mins) with an invigilator-timed MCQ section (10 Qs) plus a working-required section, and Paper 2 (40 mins) with 5 long, high-ceiling questions.",
+    "Ensure Paper 2 includes at least one proof/explain prompt, one combinatorics recursion count, one remainder-in-a-range problem, and one divisibility/remainder-of-large-product question.",
+    "Use clean, minimal wording and explicit constraints (ranges, 'order matters', 'use each symbol once', 'do not need a long paragraph').",
+    "For diagram-reliant items (dice, grids, angle diagrams), design them to be answerable online via selection, short numeric entry, or structured input rather than freehand drawing.",
+    "Keep difficulty ramps steep: early accessibility, then multiple questions that require planning and structured reasoning."
+  ]
+}

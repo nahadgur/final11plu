@@ -1,0 +1,141 @@
+{
+  "schoolId": "wycombe-abbey",
+  "schoolName": "Wycombe Abbey",
+  "version": "v1",
+  "summary": "A syllabus-led, method-focused Maths paper: mostly short-answer and procedural, with clear expectations to show working and no calculator. The difficulty is driven by accuracy (decimals, negatives, fractions) and a small number of classic reasoning items rather than novel puzzle formats.",
+  "defaults": {
+    "mixedPaper": {
+      "durationMins": 75,
+      "questionCount": 24,
+      "sections": [
+        {
+          "name": "Maths",
+          "share": 0.5
+        },
+        {
+          "name": "English",
+          "share": 0.5
+        }
+      ]
+    },
+    "mathsOnly": {
+      "durationMins": 45,
+      "questionCount": 22
+    },
+    "englishOnly": {
+      "durationMins": 45,
+      "questionCount": 25
+    }
+  },
+  "maths": {
+    "topicWeighting": [
+      {
+        "topic": "arithmetic fluency (add/subtract/multiply/divide; decimals; multi-step)",
+        "weight": 0.3
+      },
+      {
+        "topic": "negative numbers and order of operations",
+        "weight": 0.1
+      },
+      {
+        "topic": "fractions (compare, add, multiply; fraction of a whole; simplify)",
+        "weight": 0.18
+      },
+      {
+        "topic": "percentages (percentage of an amount)",
+        "weight": 0.08
+      },
+      {
+        "topic": "number properties (multiples and factors)",
+        "weight": 0.07
+      },
+      {
+        "topic": "algebra (solve linear equations; form and solve from a word problem)",
+        "weight": 0.14
+      },
+      {
+        "topic": "geometry and measurement (perimeter with square tiling; area/width from area)",
+        "weight": 0.09
+      },
+      {
+        "topic": "counting/combinatorics (counting squares on a grid/chessboard)",
+        "weight": 0.04
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "multiple-choice",
+        "weight": 0.0
+      },
+      {
+        "type": "fill-in-the-blank",
+        "weight": 0.25
+      },
+      {
+        "type": "ordering",
+        "weight": 0.0
+      },
+      {
+        "type": "short-answer",
+        "weight": 0.75
+      }
+    ],
+    "formatRules": [
+      "No calculator. Require working to be shown for all non-trivial questions; design multi-step questions with partial-credit milestones.",
+      "Overall style is short-answer and procedural, with multi-part questions labelled a), b), c) grouped into a small number of stems (arithmetic set, negatives/BIDMAS set, fractions set, algebra set).",
+      "Arithmetic warm-up should include integer plus/minus, multi-digit multiplication and division, and at least one multi-step decimal expression that tests place value alignment.",
+      "Include a short negative-number mini-set (subtracting a negative, multiplying or dividing a negative) plus one explicit order-of-operations item with brackets.",
+      "Fractions should include: (i) comparison of two proper fractions, (ii) addition with unlike denominators, (iii) a product of several fractions designed to simplify/cancel, and (iv) a fraction-of-a-whole context question where the remainder fraction is required.",
+      "Percentages should appear as direct 'find x% of y' questions, usually producing whole-number outputs without a calculator.",
+      "Number properties should include short prompts like listing first five multiples and listing all factors of a small integer.",
+      "Algebra should include simple one-step and two-step equations and one word problem translating statements like 'twice as many' and '12 more' into a linear equation.",
+      "Geometry should include a perimeter question where a rectangle is subdivided into equal squares and a single given length forces inference of side lengths.",
+      "Measurement/area should include a stepped-rectangle or composite diagram where areas of rectangles are given and one width/length must be deduced using area = length times width.",
+      "Include one classic counting question about the number of squares on an n by n board (explicitly hint that it is more than n squared).",
+      "Keep wording direct and low-fluff; difficulty should come from accuracy and multi-step method rather than novel rule systems.",
+      "UNKNOWN: official time limit and total marks were not clearly inferable from the provided sample; default to a 45-minute online mock and calibrate so most candidates reach the final counting question with some time pressure."
+    ],
+    "difficultyNotes": "Easier-to-moderate compared to puzzle-heavy 11+ Maths. It mainly tests reliable core skills and clean methods; the main stretch comes from careful multi-step arithmetic and a classic non-routine counting problem near the end."
+  },
+  "english": {
+    "topicWeighting": [
+      {
+        "topic": "UNKNOWN: no English content provided",
+        "weight": 1.0
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "short-answer",
+        "weight": 1.0
+      }
+    ],
+    "formatRules": [
+      "UNKNOWN: no English paper text was provided for this school; do not infer passage style, question stems, or writing tasks until English papers are supplied."
+    ],
+    "difficultyNotes": "UNKNOWN: English difficulty cannot be inferred without English papers."
+  },
+  "markingAndFeedback": {
+    "commonWrongAnswers": [
+      "Place-value errors in multi-step decimal expressions and long multiplication/division.",
+      "Sign mistakes with negatives (especially subtracting a negative) and ignoring brackets in order-of-operations questions.",
+      "Fraction errors: comparing by numerator/denominator only, incorrect common denominators, not simplifying, or not cancelling in products.",
+      "Percentage misconceptions (treating 30% as 30; wrong conversion to a fraction/decimal).",
+      "Confusing factors with multiples; forgetting that factors include 1 and the number itself.",
+      "Algebra translation mistakes: misreading 'twice as many' or '12 more' when forming equations.",
+      "Perimeter-from-squares mistakes: not using the equal-square constraint to infer lengths or double-counting internal edges.",
+      "Counting-squares question answered as only n squared (counting 1 by 1 squares only) and missing larger squares."
+    ],
+    "explanationTone": "Clear, calm, and concrete: show the standard method in a few steps, point out the single most likely trap (sign, place value, simplifying), and finish with a quick check (estimate, substitute back, or simplify check)."
+  },
+  "generatorHints": [
+    "Do NOT copy any original questions.",
+    "Match the flavour, not the exact content.",
+    "Avoid references to printing or PDFs.",
+    "Keep questions suitable for an online timed exam.",
+    "Prioritise direct, curriculum-style short-answer questions with required working and minimal puzzle narrative.",
+    "Use multi-part stems to mirror the paper structure (arithmetic set, negatives/BIDMAS set, fractions set, algebra set).",
+    "Include at least one perimeter-from-squares diagram task and one stepped-area missing-length diagram task.",
+    "Include exactly one classic 'count the squares on an n by n grid' style question near the end as a stretch item."
+  ]
+}

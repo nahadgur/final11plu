@@ -1,0 +1,164 @@
+{
+  "schoolId": "hch-year7-8",
+  "schoolName": "Hampton Court House",
+  "version": "v1",
+  "summary": "A 45-minute, 75-mark Maths paper that mixes quick-fire arithmetic (including negatives and order of operations) with standard KS2-to-early-KS3 topics: factors/primes, algebra basics, angles, fractions/percentages, data handling, and area/perimeter (including circles with π specified). Questions are mostly short-answer with marks shown per part and occasional brief explanation prompts. \n\nHampton-Court-House-11-Plus-Mat…\n\n",
+  "defaults": {
+    "mixedPaper": {
+      "durationMins": 75,
+      "questionCount": 24,
+      "sections": [
+        {
+          "name": "Maths",
+          "share": 0.5
+        },
+        {
+          "name": "English",
+          "share": 0.5
+        }
+      ]
+    },
+    "mathsOnly": {
+      "durationMins": 45,
+      "questionCount": 24
+    },
+    "englishOnly": {
+      "durationMins": 45,
+      "questionCount": 25
+    }
+  },
+  "maths": {
+    "topicWeighting": [
+      {
+        "topic": "arithmetic fluency (integers/decimals, order of operations, long multiplication/division)",
+        "weight": 0.2
+      },
+      {
+        "topic": "negative numbers (add/subtract/divide; crossing zero)",
+        "weight": 0.06
+      },
+      {
+        "topic": "fractions and mixed numbers (improper fractions, add/subtract, simplify)",
+        "weight": 0.14
+      },
+      {
+        "topic": "percentages and fraction/percentage interpretation",
+        "weight": 0.07
+      },
+      {
+        "topic": "number properties (primes, prime factors, smallest with given prime-factor conditions)",
+        "weight": 0.1
+      },
+      {
+        "topic": "algebra basics (collecting like terms, simple linear equations)",
+        "weight": 0.1
+      },
+      {
+        "topic": "sequences and patterns (extend pattern; first term below a threshold)",
+        "weight": 0.06
+      },
+      {
+        "topic": "geometry: angles (missing angles on straight line/around a point)",
+        "weight": 0.06
+      },
+      {
+        "topic": "geometry: area and perimeter (triangle, composite rectilinear shapes)",
+        "weight": 0.1
+      },
+      {
+        "topic": "circles and shaded area (π given; circle in square)",
+        "weight": 0.05
+      },
+      {
+        "topic": "statistics (mean/median/mode/range; effect of changing one value)",
+        "weight": 0.04
+      },
+      {
+        "topic": "tables, probability, and proportional reasoning in context",
+        "weight": 0.02
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "multiple-choice",
+        "weight": 0.0
+      },
+      {
+        "type": "fill-in-the-blank",
+        "weight": 0.22
+      },
+      {
+        "type": "ordering",
+        "weight": 0.0
+      },
+      {
+        "type": "short-answer",
+        "weight": 0.78
+      }
+    ],
+    "formatRules": [
+      "Header instructions emphasise: 45 minutes, 75 marks, no calculators, show workings clearly, method credit may be awarded, and students should attempt as many questions as possible (not all candidates will finish). \n\nHampton-Court-House-11-Plus-Mat…\n\n",
+      "Marks are shown in brackets per part (e.g., [1], [2], [3], [4]); generators should assign small mark values to quick items and higher marks to multi-step items.",
+      "Starts with a rapid set of 10 one-mark arithmetic questions that can be done mentally or with minimal working; include order-of-operations and a couple of negative-number operations in this starter set.",
+      "Include at least one explicit long multiplication (3-digit by 2-digit) requiring full working for method marks.",
+      "Sequence question style: provide the first several terms of a decreasing/increasing arithmetic pattern, then ask for (i) identifying properties from the list (even/prime/square), (ii) the next terms, and (iii) the first term below a stated bound (e.g., below zero).",
+      "Fractions/percent questions are straightforward contextual interpretation (fraction of animals, percentage of a total) and later procedural fraction skills (mixed number to improper; add/subtract fractions in simplest form).",
+      "Number theory appears as prime factorisation of a given integer and a ‘smallest number with four different prime factors’ style question; keep wording direct.",
+      "Algebra is early-KS3 level: simplify an expression by collecting like terms (x and y terms) and solve simple linear equations (including one involving a fraction coefficient such as x/2 + 3 = 12).",
+      "Angle questions use simple line/point diagrams; wording is just “Calculate the missing angles” with diagrams not necessarily labelled ‘not to scale’ in text, so the generator should rely on standard angle facts rather than measurement.",
+      "Include at least one timetable-reading task: a small table of departure/arrival times across stations, then ask for a travel time in minutes and a decision question (“which train should she take?”) requiring a short reason.",
+      "Include a two-way table completion problem (boys/girls by class) followed by fraction and probability questions, plus a final adjustment scenario (new pupils join; recompute counts given a condition like ‘half are now boys’).",
+      "Statistics question bundle uses an explicit list of scores and asks for range, median, mean, mode, then a short explanation comparing how a change affects mean but not median; keep explanation requirement concise.",
+      "Rounding is explicit and varied: nearest thousand (for a money division result) and significant figures (e.g., 2 s.f.). Generators should only include rounding/s.f. when stated in the question text.",
+      "Geometry measurement includes: (a) triangle perimeter and area with given height; (b) composite rectilinear shape requiring both area and perimeter; (c) circle area with π fixed (3.14) and an inscribed circle in a square asking for shaded area.",
+      "UNKNOWN: whether any topics like coordinates, simultaneous equations, or advanced reasoning puzzles appear in other HCH papers; this blueprint reflects the single uploaded specimen only."
+    ],
+    "difficultyNotes": "Overall moderate, with a broad KS2-to-early-KS3 coverage and a clear expectation of method marks. The challenge comes mainly from time pressure, accuracy (especially negatives, order of operations, and fraction simplification), and multi-step applied questions (timetables, tables/probability, statistics explanation, and geometry area/perimeter including circle-in-square)."
+  },
+  "english": {
+    "topicWeighting": [
+      {
+        "topic": "UNKNOWN: no English content provided",
+        "weight": 1.0
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "short-answer",
+        "weight": 1.0
+      }
+    ],
+    "formatRules": [
+      "UNKNOWN: no English paper text was provided for this school; do not infer passage style, question stems, or writing tasks until English papers are supplied."
+    ],
+    "difficultyNotes": "UNKNOWN: English difficulty cannot be inferred without English papers."
+  },
+  "markingAndFeedback": {
+    "commonWrongAnswers": [
+      "Order of operations mistakes (e.g., adding before multiplying).",
+      "Sign errors with negatives (especially subtracting negatives and dividing by a negative).",
+      "Arithmetic slips under time pressure in the quick starter section.",
+      "Incomplete working or missing method steps that would otherwise earn credit.",
+      "Prime factorisation errors (missing a repeated prime; stopping too early; not using index notation when appropriate).",
+      "Fraction errors: failing to convert mixed numbers correctly, incorrect common denominators, not simplifying final answers.",
+      "Mean/median confusion and weak explanation of why changing one value shifts mean but not median position.",
+      "Timetable misreads (mixing rows/columns, subtracting times incorrectly, choosing a train that arrives too late).",
+      "Probability errors from not using the correct conditional group (e.g., ‘chosen from class 6B’).",
+      "Geometry errors: perimeter tracing mistakes on composite shapes; area formula misuse; forgetting units (cm vs cm²).",
+      "Rounding/s.f. mistakes (rounding the wrong intermediate value; incorrect place value for ‘nearest thousand’).",
+      "Circle-in-square shaded area mistakes (using diameter as radius; forgetting to subtract circle area from square area)."
+    ],
+    "explanationTone": "Clear and reassuring: show the minimal correct method, highlight the common trap in one sentence (especially signs, order of operations, and fraction simplification), and end with a quick check (substitute back, estimate, or unit check)."
+  },
+  "generatorHints": [
+    "Do NOT copy any original questions.",
+    "Match the flavour, not the exact content.",
+    "Avoid references to printing or PDFs.",
+    "Keep questions suitable for an online timed exam.",
+    "Keep the paper calculator-free and method-mark friendly: require working for multi-mark parts and allow partial credit steps.",
+    "Include a short initial arithmetic section with many one-mark items, then move into mixed-topic multi-part questions.",
+    "Use straightforward, school-like contexts (animals, classes, timetables, test scores, jackpot sharing) rather than contrived puzzle narratives.",
+    "When using π, explicitly state the value to use (e.g., π = 3.14) and keep numbers clean enough for timed calculation.",
+    "Only include rounding/significant figures when explicitly requested in the question stem."
+  ]
+}

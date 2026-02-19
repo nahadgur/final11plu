@@ -1,0 +1,192 @@
+{
+  "schoolId": "cls-boys",
+  "schoolName": "City of London School",
+  "version": "v1",
+  "summary": "A 1-hour, 60-mark Maths paper with a clear progression from quick core skills to multi-step applications and number reasoning. The style is traditional and syllabus-led (no calculator, show working), with a few distinctive reasoning items: defining special number types, prime factorisation of a composite, a custom operation, and an LCM/intervals question requiring justification.\n\nEnglish addendum: An English-only paper split into two equal halves: 25 multiple-choice reading questions (one correct answer each) and one creative-writing continuation task. The reading leans on vocabulary-in-context, precise inference, and identifying writer’s methods (metaphor/personification), while the writing task rewards sentence control (including subordination), accuracy, realism, and controlled figurative language.",
+  "defaults": {
+    "mixedPaper": {
+      "durationMins": 90,
+      "questionCount": 26,
+      "sections": [
+        {
+          "name": "Maths",
+          "share": 0.5
+        },
+        {
+          "name": "English",
+          "share": 0.5
+        }
+      ]
+    },
+    "mathsOnly": {
+      "durationMins": 60,
+      "questionCount": 22
+    },
+    "englishOnly": {
+      "durationMins": 60,
+      "questionCount": 26
+    }
+  },
+  "maths": {
+    "topicWeighting": [
+      {
+        "topic": "arithmetic fluency (place value, powers/roots, long multiplication, fraction simplification)",
+        "weight": 0.22
+      },
+      {
+        "topic": "fractions, decimals, percentages (incl. fraction of remainder, % to fraction, decimal display)",
+        "weight": 0.18
+      },
+      {
+        "topic": "money calculations (unit prices, change, credit/allowance style)",
+        "weight": 0.08
+      },
+      {
+        "topic": "time and units (time differences, comparing times in mixed formats)",
+        "weight": 0.1
+      },
+      {
+        "topic": "measurement and compound measures (volume, perimeter/area, string around a box)",
+        "weight": 0.12
+      },
+      {
+        "topic": "geometry (angles in triangles, angle facts, reflections on grids, shaded fractions)",
+        "weight": 0.12
+      },
+      {
+        "topic": "number properties and number theory (primes, squares/cubes, Fibonacci/triangular/perfect/powerful, prime factorisation)",
+        "weight": 0.12
+      },
+      {
+        "topic": "structure/reasoning (use given calculation to infer related results, custom operation, LCM/intervals with justification)",
+        "weight": 0.06
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "multiple-choice",
+        "weight": 0.0
+      },
+      {
+        "type": "fill-in-the-blank",
+        "weight": 0.35
+      },
+      {
+        "type": "ordering",
+        "weight": 0.05
+      },
+      {
+        "type": "short-answer",
+        "weight": 0.6
+      }
+    ],
+    "formatRules": [
+      "Paper timing and scoring: 1 hour, total 60 marks; show marks per question/part and keep early questions low-mark, later questions higher-mark.",
+      "Instructions must include: answer as many questions as you can; show all working clearly; do not spend too long on one question; calculators not allowed.",
+      "Front-loaded “quick answers” section: several short prompts in a row (place value scaling like ×10,000; index notation; square/cube roots; fraction simplification; percentage of a number; multi-digit multiplication).",
+      "Include at least one “calculator display” style place-value question where a known decimal display is used to infer a related decimal (e.g., scaling denominator by 100). Online version should simulate a fixed-width 10-digit display box.",
+      "Money change problem format: multiple items with different unit prices (pence and pounds) plus a note payment; output is a £ change amount.",
+      "Include one symmetry/reflection task on a grid with a vertical mirror line; online version should be click-to-place letters or select mirrored positions (do not require drawing tools).",
+      "Fraction-of-what-remains structure: give an amount, take a fraction away, then take a fraction of the remainder; ask for the final remainder (money).",
+      "Read values from dual-scale diagrams: thermometer-style scales with °F and °C, then compute a difference in °C. Online diagrams must have clear tick marks and labels.",
+      "Time arithmetic appears in two formats: (i) minutes between two clock times with minutes not on the hour, (ii) comparing durations given in hours+minutes, total minutes, and fractional hours; require identifying quickest/slowest (ordering).",
+      "Fractions in shapes: shaded fraction of a repeated-tile design (e.g., hexagon tiling) plus ‘how many more tiles to reach 3/4 shaded’; also include a shaded fraction of a larger rectangle diagram.",
+      "Percent-to-fraction conversion appears explicitly (e.g., 15% as a simplest fraction). Also include an applied percentage uplift (e.g., +15% free allowance) that changes how long something lasts; require working.",
+      "Area and perimeter are diagram-driven: overlapping rectangles (area of the larger-only and total combined covered area) and a rectangle-vs-square equal-perimeter question asking for difference in area; include 'diagram not drawn to scale' where appropriate.",
+      "Angle questions are short and fact-based: missing angle in a triangle; a composite angle diagram to find angle a; then classify a given angle as acute/obtuse/reflex.",
+      "Right triangle question requires both perimeter and area from given side lengths; keep numbers manageable without a calculator.",
+      "3D measure question bundle: volume of a cuboid; then a string-wrapping question with an added fixed bow length (multi-step perimeter-around-faces reasoning).",
+      "Number classification set: choose numbers from a given range that meet named properties (prime, square, cube, Fibonacci, triangular, perfect, powerful). Provide short definitions in-question for less common terms (e.g., perfect/powerful).",
+      "Short order-of-operations expression with nested brackets appears late as a quick-check item.",
+      "Prime factorisation task: express a composite as a product of three primes in increasing order with constraints (a < b < c). Use numbers where factorisation is doable without a calculator.",
+      "Use-a-given-product reasoning: provide one multiplication identity and ask for related division and scaled-decimal variants (e.g., 235.7 × 99).",
+      "Custom operator question: define a ⟴ b with a specific rule and ask (i) direct evaluation, (ii) nested evaluation, (iii) solve for unknown input producing a given output.",
+      "LCM/intervals finale: multiple bells/events ring at given second intervals; ask when they coincide again and require a short justification (LCM reasoning).",
+      "UNKNOWN: whether this school also uses any separate multiple-choice paper; this blueprint reflects a single 1-hour written specimen."
+    ],
+    "difficultyNotes": "Moderate-to-hard for 11+: most content is standard, but the paper expects careful diagram reading, confident manipulation of fractions/percentages, and stronger number reasoning (definitions, factorisation, LCM, custom operations). Time pressure is managed by many short items early and a few multi-step reasoning problems later."
+  },
+  "english": {
+    "topicWeighting": [
+      {
+        "topic": "reading comprehension (literal + inference; best-supported option)",
+        "weight": 0.3
+      },
+      {
+        "topic": "vocabulary in context (meaning from surrounding text)",
+        "weight": 0.22
+      },
+      {
+        "topic": "writer's methods and effects (metaphor, personification, word choice)",
+        "weight": 0.18
+      },
+      {
+        "topic": "purpose/structure of opening (scene-setting, character situation, contrast)",
+        "weight": 0.08
+      },
+      {
+        "topic": "creative writing: narrative continuation (realistic development)",
+        "weight": 0.12
+      },
+      {
+        "topic": "SPaG within writing (subordination, punctuation, grammar, spelling)",
+        "weight": 0.1
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "multiple-choice",
+        "weight": 0.75
+      },
+      {
+        "type": "short-answer",
+        "weight": 0.25
+      },
+      {
+        "type": "fill-in-the-blank",
+        "weight": 0.0
+      },
+      {
+        "type": "ordering",
+        "weight": 0.0
+      }
+    ],
+    "formatRules": [
+      "Total time is 60 minutes. Instructions explicitly suggest spending 30 minutes on each section; both sections carry equal marks.",
+      "Section A (Reading): candidates read Passage A and answer 25 multiple-choice questions. Each question has exactly one correct answer. Options are labelled A–D and candidates write the chosen letter.",
+      "Reading question style prioritises precision: expect stems like 'What do you think X means in this context?', 'Which statement most accurately describes...', 'Why do you think...', and 'Which phrase best describes the purpose...'.",
+      "Include multiple vocabulary-in-context items; distractors should be plausible near-synonyms but wrong for the passage’s specific nuance.",
+      "Include at least two items on figurative language identification (e.g., which phrase is a metaphor; classify a phrase as personification).",
+      "Include at least one question on authorial purpose/structure (what the first paragraphs achieve: scene-setting, establishing mood, introducing a character situation).",
+      "Include at least one 'single word choice' effect question where candidates select which quoted/picked word best conveys an emotion or tone.",
+      "Section B (Creative Writing): after reading Passage B, candidates continue the story in a lined space. They do not need to finish the story.",
+      "Writing assessment criteria are explicitly stated and should be mirrored: accurate sentences including subordination; correct spelling, punctuation and grammar; realistic narrative; engaging writing with metaphor, simile and personification where appropriate.",
+      "The paper instructs students to spend about 5 minutes planning in a box before writing. Online UI should include a planning box plus a main writing area.",
+      "Passage A is classic-style descriptive narration with mature vocabulary; Passage B is tense narrative description. For generators, create fresh passages that feel similar in tone and complexity without copying.",
+      "UNKNOWN: exact mark breakdown within the reading section (per question) is not given; assume 25 roughly even-weight questions for generation and feedback."
+    ],
+    "difficultyNotes": "Reading difficulty comes from close reading and fine distinctions between answer options rather than complex question formats. Writing difficulty is in control: maintaining tone/voice, using subordination correctly, keeping the continuation realistic, and using figurative language naturally within a strict time budget."
+  },
+  "markingAndFeedback": {
+    "commonWrongAnswers": [
+      "Choosing an option that is broadly true but not the most accurate statement supported by the passage.",
+      "Using a dictionary meaning for a word instead of the meaning implied by context.",
+      "Confusing metaphor with personification or selecting a vivid phrase that is not the specific device asked for.",
+      "Answering inference questions with opinion rather than evidence from the passage.",
+      "In writing: shifting tense/voice or losing the tone of the provided excerpt.",
+      "In writing: forcing figurative language (overdone similes/metaphors) instead of using a few controlled, relevant images.",
+      "In writing: weak sentence control under time pressure (run-ons, comma splices, missing subordination), and basic punctuation slips."
+    ],
+    "explanationTone": "Direct and child-friendly: for reading, point to the exact phrase/idea that makes the correct option best; for writing, give 2–3 concrete improvement targets (one accuracy, one craft) and a short example of a stronger sentence."
+  },
+  "generatorHints": [
+    "Do NOT copy any original questions.",
+    "Match the flavour, not the exact content.",
+    "Avoid references to printing or PDFs.",
+    "Keep questions suitable for an online timed exam.",
+    "Keep the exam structure fixed: Section A has 25 multiple-choice questions (A–D, one correct answer), Section B is one narrative-continuation writing task.",
+    "Generate two fresh passages: Passage A suited to MCQ comprehension; Passage B as a short narrative excerpt with a clear continuation hook.",
+    "Design MCQ distractors to be close and plausible; use 'most accurately' framing for some items.",
+    "Ensure the writing prompt explicitly encourages subordination and accurate SPaG, plus restrained metaphor/simile/personification where appropriate, and includes a planning box."
+  ]
+}

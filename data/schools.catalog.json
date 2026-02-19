@@ -1,0 +1,1235 @@
+[
+  {
+    "id": "qe-boys",
+    "name": "Queen Elizabeth's School (Barnet)",
+    "shortName": "QE Barnet",
+    "category": "grammar",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "Barnet, North London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "GL Assessment (two-stage)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/qe-boys"
+  },
+  {
+    "id": "henrietta-barnett",
+    "name": "The Henrietta Barnett School",
+    "shortName": "HBS",
+    "category": "grammar",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Hampstead Garden Suburb, North London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "GL Assessment (two-stage: VR/NVR then Maths/English)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/henrietta-barnett"
+  },
+  {
+    "id": "wilsons",
+    "name": "Wilson's School",
+    "shortName": "Wilson's",
+    "category": "grammar",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "Wallington, Sutton"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Sutton SET (two-stage)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/wilsons"
+  },
+  {
+    "id": "tiffin-girls",
+    "name": "Tiffin Girls' School",
+    "shortName": "Tiffin Girls",
+    "category": "grammar",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Kingston upon Thames"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "GL Assessment (two-stage)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/tiffin-girls"
+  },
+  {
+    "id": "tiffin",
+    "name": "Tiffin School",
+    "shortName": "Tiffin",
+    "category": "grammar",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "Kingston upon Thames"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "GL Assessment (two-stage)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/tiffin"
+  },
+  {
+    "id": "st-olaves",
+    "name": "St Olave's Grammar School",
+    "shortName": "St Olave's",
+    "category": "grammar",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "Orpington, Bromley"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "St Olave's SET (two-stage: VR/NVR then Maths/English)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/st-olaves"
+  },
+  {
+    "id": "latymer",
+    "name": "The Latymer School",
+    "shortName": "Latymer",
+    "category": "grammar",
+    "gender": "mixed",
+    "location": {
+      "city": "London",
+      "area": "Edmonton, North London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "GL Assessment",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/latymer"
+  },
+  {
+    "id": "nonsuch",
+    "name": "Nonsuch High School for Girls",
+    "shortName": "Nonsuch",
+    "category": "grammar",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Cheam, Sutton"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Sutton SET (two-stage)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/nonsuch"
+  },
+  {
+    "id": "wallington-girls",
+    "name": "Wallington High School for Girls",
+    "shortName": "Wallington Girls",
+    "category": "grammar",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Wallington, Sutton"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Sutton SET (two-stage)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/wallington-girls"
+  },
+  {
+    "id": "sutton-grammar",
+    "name": "Sutton Grammar School",
+    "shortName": "Sutton Grammar",
+    "category": "grammar",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "Sutton"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Sutton SET (two-stage)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/sutton-grammar"
+  },
+  {
+    "id": "colchester-rgs",
+    "name": "Colchester Royal Grammar School",
+    "shortName": "CRGS",
+    "category": "grammar",
+    "gender": "boys",
+    "location": {
+      "city": "Colchester",
+      "area": "Essex"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "CSSE (Essex)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/colchester-rgs"
+  },
+  {
+    "id": "altrincham-girls",
+    "name": "Altrincham Grammar School for Girls",
+    "shortName": "AGSF",
+    "category": "grammar",
+    "gender": "girls",
+    "location": {
+      "city": "Manchester",
+      "area": "Altrincham, Greater Manchester"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "CEM (Trafford)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/altrincham-girls"
+  },
+  {
+    "id": "pates-grammar",
+    "name": "Pate's Grammar School",
+    "shortName": "Pate's",
+    "category": "grammar",
+    "gender": "mixed",
+    "location": {
+      "city": "Cheltenham",
+      "area": "Gloucestershire"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "GL Assessment",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/pates-grammar"
+  },
+  {
+    "id": "king-edward-vi-girls",
+    "name": "King Edward VI High School for Girls (Birmingham)",
+    "shortName": "KEHS",
+    "category": "grammar",
+    "gender": "girls",
+    "location": {
+      "city": "Birmingham",
+      "area": "Edgbaston, Birmingham"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "KEHS own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/king-edward-vi-girls"
+  },
+  {
+    "id": "reading-school",
+    "name": "Reading School",
+    "shortName": "Reading School",
+    "category": "grammar",
+    "gender": "boys",
+    "location": {
+      "city": "Reading",
+      "area": "Berkshire"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "GL Assessment",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/reading-school"
+  },
+  {
+    "id": "newstead-wood",
+    "name": "Newstead Wood School",
+    "shortName": "Newstead Wood",
+    "category": "grammar",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Orpington, Bromley"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "GL Assessment (two-stage)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/newstead-wood"
+  },
+  {
+    "id": "spgs-girls",
+    "name": "St Paul's Girls' School",
+    "shortName": "SPGS",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Hammersmith, West London"
+    },
+    "entryPoints": [
+      "11+",
+      "16+"
+    ],
+    "examFormat": "SPGS own papers (Maths, English + interview)",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": true,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/spgs-girls"
+  },
+  {
+    "id": "guildford-high",
+    "name": "Guildford High School",
+    "shortName": "GHS",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "Guildford",
+      "area": "Surrey"
+    },
+    "entryPoints": [
+      "11+",
+      "16+"
+    ],
+    "examFormat": "Own papers (3 subjects + General paper + interview)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/guildford-high"
+  },
+  {
+    "id": "st-pauls",
+    "name": "St Paul's School",
+    "shortName": "SPS",
+    "category": "private",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "Barnes, West London"
+    },
+    "entryPoints": [
+      "11+",
+      "13+"
+    ],
+    "examFormat": "Own papers (Maths, English, Reasoning + interview)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/st-pauls"
+  },
+  {
+    "id": "nlcs-girls",
+    "name": "North London Collegiate School",
+    "shortName": "NLCS",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Edgware, North London"
+    },
+    "entryPoints": [
+      "11+",
+      "16+"
+    ],
+    "examFormat": "NLCS own papers (Maths, English + interview)",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": true,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/nlcs-girls"
+  },
+  {
+    "id": "kcs-wimbledon",
+    "name": "King's College School (Wimbledon)",
+    "shortName": "KCS",
+    "category": "private",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "Wimbledon, South West London"
+    },
+    "entryPoints": [
+      "11+",
+      "13+"
+    ],
+    "examFormat": "KCS own papers (Maths, English, Reasoning + interview)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": true,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/kcs-wimbledon"
+  },
+  {
+    "id": "colsg-girls",
+    "name": "City of London School for Girls",
+    "shortName": "CLSG",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Barbican, City of London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "ISEB Pre-Test or own papers",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": true,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/colsg-girls"
+  },
+  {
+    "id": "westminster",
+    "name": "Westminster School",
+    "shortName": "Westminster",
+    "category": "private",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "Westminster, Central London"
+    },
+    "entryPoints": [
+      "11+",
+      "13+"
+    ],
+    "examFormat": "ISEB Pre-Test + own papers + interview",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/westminster"
+  },
+  {
+    "id": "mcs-oxford",
+    "name": "Magdalen College School (Oxford)",
+    "shortName": "MCS Oxford",
+    "category": "private",
+    "gender": "boys",
+    "location": {
+      "city": "Oxford",
+      "area": "Oxfordshire"
+    },
+    "entryPoints": [
+      "11+",
+      "13+"
+    ],
+    "examFormat": "MCS own papers (Maths, English + interview)",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": true,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/mcs-oxford"
+  },
+  {
+    "id": "cls-boys",
+    "name": "City of London School",
+    "shortName": "CLS",
+    "category": "private",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "City of London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "CLS own papers (Maths, English)",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": true,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/cls-boys"
+  },
+  {
+    "id": "habs-boys",
+    "name": "Haberdashers' Boys' School",
+    "shortName": "Habs Boys",
+    "category": "private",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "Borehamwood, Hertfordshire"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": true,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/habs-boys"
+  },
+  {
+    "id": "habs-girls",
+    "name": "Haberdashers' Girls' School",
+    "shortName": "Habs Girls",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Borehamwood, Hertfordshire"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/habs-girls"
+  },
+  {
+    "id": "wycombe-abbey",
+    "name": "Wycombe Abbey",
+    "shortName": "Wycombe Abbey",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "High Wycombe",
+      "area": "Buckinghamshire"
+    },
+    "entryPoints": [
+      "11+",
+      "13+"
+    ],
+    "examFormat": "Own papers (Maths, English + interview)",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": true,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/wycombe-abbey"
+  },
+  {
+    "id": "tonbridge",
+    "name": "Tonbridge School",
+    "shortName": "Tonbridge",
+    "category": "private",
+    "gender": "boys",
+    "location": {
+      "city": "Tonbridge",
+      "area": "Kent"
+    },
+    "entryPoints": [
+      "11+",
+      "13+"
+    ],
+    "examFormat": "ISEB Pre-Test + own papers + interview",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/tonbridge"
+  },
+  {
+    "id": "godolphin-latymer",
+    "name": "Godolphin and Latymer School",
+    "shortName": "G&L",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Hammersmith, West London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Own papers (Maths, English + interview)",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/godolphin-latymer"
+  },
+  {
+    "id": "highgate",
+    "name": "Highgate School",
+    "shortName": "Highgate",
+    "category": "private",
+    "gender": "mixed",
+    "location": {
+      "city": "London",
+      "area": "Highgate, North London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "ISEB Pre-Test + own papers + interview",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/highgate"
+  },
+  {
+    "id": "latymer-upper",
+    "name": "Latymer Upper School",
+    "shortName": "Latymer Upper",
+    "category": "private",
+    "gender": "mixed",
+    "location": {
+      "city": "London",
+      "area": "Hammersmith, West London"
+    },
+    "entryPoints": [
+      "11+",
+      "16+"
+    ],
+    "examFormat": "Own papers (Maths, English + interview)",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/latymer-upper"
+  },
+  {
+    "id": "jags",
+    "name": "James Allen's Girls' School",
+    "shortName": "JAGS",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Dulwich, South London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Own papers (Maths, English + interview)",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/jags"
+  },
+  {
+    "id": "eton",
+    "name": "Eton College",
+    "shortName": "Eton",
+    "category": "private",
+    "gender": "boys",
+    "location": {
+      "city": "Windsor",
+      "area": "Berkshire"
+    },
+    "entryPoints": [
+      "13+"
+    ],
+    "examFormat": "ISEB Pre-Test + own papers + interview",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "notes": "Primary entry is 13+; included for brand recognition and 11+ prep context",
+    "sourcePdfDir": "source/past-papers/eton"
+  },
+  {
+    "id": "sevenoaks",
+    "name": "Sevenoaks School",
+    "shortName": "Sevenoaks",
+    "category": "private",
+    "gender": "mixed",
+    "location": {
+      "city": "Sevenoaks",
+      "area": "Kent"
+    },
+    "entryPoints": [
+      "11+",
+      "13+"
+    ],
+    "examFormat": "Own papers + interview",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/sevenoaks"
+  },
+  {
+    "id": "wimbledon-high",
+    "name": "Wimbledon High School",
+    "shortName": "WHS",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Wimbledon, South West London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "GDST own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/wimbledon-high"
+  },
+  {
+    "id": "oxford-high",
+    "name": "Oxford High School (GDST)",
+    "shortName": "Oxford High",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "Oxford",
+      "area": "Oxfordshire"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "GDST own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/oxford-high"
+  },
+  {
+    "id": "dulwich-college",
+    "name": "Dulwich College",
+    "shortName": "Dulwich",
+    "category": "private",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "Dulwich, South London"
+    },
+    "entryPoints": [
+      "11+",
+      "13+"
+    ],
+    "examFormat": "Own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/dulwich-college"
+  },
+  {
+    "id": "alleyn",
+    "name": "Alleyn's School",
+    "shortName": "Alleyn's",
+    "category": "private",
+    "gender": "mixed",
+    "location": {
+      "city": "London",
+      "area": "Dulwich, South London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/alleyn"
+  },
+  {
+    "id": "south-hampstead",
+    "name": "South Hampstead High School",
+    "shortName": "SHHS",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "South Hampstead, North London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "GDST own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/south-hampstead"
+  },
+  {
+    "id": "notting-hill-ealing",
+    "name": "Notting Hill and Ealing High School",
+    "shortName": "NHEHS",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Ealing, West London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "GDST own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/notting-hill-ealing"
+  },
+  {
+    "id": "whitgift",
+    "name": "Whitgift School",
+    "shortName": "Whitgift",
+    "category": "private",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "Croydon, South London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/whitgift"
+  },
+  {
+    "id": "emmanuel-tiffin",
+    "name": "Emanuel School",
+    "shortName": "Emanuel",
+    "category": "private",
+    "gender": "mixed",
+    "location": {
+      "city": "London",
+      "area": "Battersea, South West London"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/emanuel"
+  },
+  {
+    "id": "brighton-college",
+    "name": "Brighton College",
+    "shortName": "Brighton College",
+    "category": "private",
+    "gender": "mixed",
+    "location": {
+      "city": "Brighton",
+      "area": "East Sussex"
+    },
+    "entryPoints": [
+      "11+",
+      "13+"
+    ],
+    "examFormat": "Own papers + interview",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/brighton-college"
+  },
+  {
+    "id": "withington-girls",
+    "name": "Withington Girls' School",
+    "shortName": "WGS",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "Manchester",
+      "area": "West Didsbury, Manchester"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/withington-girls"
+  },
+  {
+    "id": "manchester-grammar",
+    "name": "Manchester Grammar School",
+    "shortName": "MGS",
+    "category": "private",
+    "gender": "boys",
+    "location": {
+      "city": "Manchester",
+      "area": "Greater Manchester"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Own papers (Maths, English, Reasoning + interview)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/manchester-grammar"
+  },
+  {
+    "id": "hch-year7-8",
+    "name": "Hampton Court House (Year 7/8)",
+    "shortName": "HCH",
+    "category": "private",
+    "gender": "mixed",
+    "location": {
+      "city": "London",
+      "area": "East Molesey, Surrey"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Own assessment + interview",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": true,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/hch-year7-8"
+  },
+  {
+    "id": "harrow",
+    "name": "Harrow School",
+    "shortName": "Harrow",
+    "category": "private",
+    "gender": "boys",
+    "location": {
+      "city": "London",
+      "area": "Harrow-on-the-Hill, North London"
+    },
+    "entryPoints": [
+      "13+"
+    ],
+    "examFormat": "ISEB Pre-Test + own papers + interview",
+    "subjects": [
+      "maths",
+      "english"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "notes": "Primary entry is 13+; included for brand recognition and prep context",
+    "sourcePdfDir": "source/past-papers/harrow"
+  },
+  {
+    "id": "surbiton-high",
+    "name": "Surbiton High School",
+    "shortName": "Surbiton High",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Surbiton, Kingston upon Thames"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Own papers (Maths, English, Reasoning)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/surbiton-high"
+  },
+  {
+    "id": "lady-eleanor-holles",
+    "name": "Lady Eleanor Holles School",
+    "shortName": "LEH",
+    "category": "private",
+    "gender": "girls",
+    "location": {
+      "city": "London",
+      "area": "Hampton, Richmond upon Thames"
+    },
+    "entryPoints": [
+      "11+"
+    ],
+    "examFormat": "Own papers (Maths, English, Reasoning + interview)",
+    "subjects": [
+      "maths",
+      "english",
+      "verbal-reasoning",
+      "non-verbal-reasoning"
+    ],
+    "selective": true,
+    "hasBlueprint": false,
+    "active": true,
+    "sourcePdfDir": "source/past-papers/lady-eleanor-holles"
+  }
+]

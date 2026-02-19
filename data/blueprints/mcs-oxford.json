@@ -1,0 +1,167 @@
+{
+  "schoolId": "mcs-oxford",
+  "schoolName": "Magdalen College School",
+  "version": "v1",
+  "summary": "A 55-minute, 18-question Maths paper that starts with core arithmetic and quickly broadens into mixed-topic reasoning: sequences, conversions between fraction/decimal/percentage, timetables, constrained number puzzles, and modular remainders. The overall feel is “do the basics accurately, then think hard”: multi-part word problems and structured puzzles carry substantial marks and reward method.",
+  "defaults": {
+    "mixedPaper": {
+      "durationMins": 75,
+      "questionCount": 24,
+      "sections": [
+        {
+          "name": "Maths",
+          "share": 0.5
+        },
+        {
+          "name": "English",
+          "share": 0.5
+        }
+      ]
+    },
+    "mathsOnly": {
+      "durationMins": 55,
+      "questionCount": 18
+    },
+    "englishOnly": {
+      "durationMins": 45,
+      "questionCount": 25
+    }
+  },
+  "maths": {
+    "topicWeighting": [
+      {
+        "topic": "arithmetic fluency (add/subtract/multiply/divide, including long methods)",
+        "weight": 0.18
+      },
+      {
+        "topic": "fractions (add/subtract, simplify, compare/order)",
+        "weight": 0.1
+      },
+      {
+        "topic": "decimals and percentages (convert between forms; interpret %)",
+        "weight": 0.1
+      },
+      {
+        "topic": "measurement and geometry (perimeter/area of composite shapes; angle facts)",
+        "weight": 0.12
+      },
+      {
+        "topic": "sequences and pattern spotting (including fraction-based patterns)",
+        "weight": 0.09
+      },
+      {
+        "topic": "tables and interpretation (fraction/decimal/% table completion)",
+        "weight": 0.07
+      },
+      {
+        "topic": "time and timetables (durations, intervals, multi-step journeys)",
+        "weight": 0.09
+      },
+      {
+        "topic": "money and integer constraints (shopping, max/min, diophantine-style counts)",
+        "weight": 0.09
+      },
+      {
+        "topic": "ratio/proportion and rates (scaling, inverse proportion, unit rates)",
+        "weight": 0.08
+      },
+      {
+        "topic": "logic/number puzzles (means, odd/even constraints, card arrangement)",
+        "weight": 0.05
+      },
+      {
+        "topic": "modular arithmetic / remainders (CRT-style constraints 0–100)",
+        "weight": 0.03
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "multiple-choice",
+        "weight": 0.0
+      },
+      {
+        "type": "fill-in-the-blank",
+        "weight": 0.3
+      },
+      {
+        "type": "ordering",
+        "weight": 0.05
+      },
+      {
+        "type": "short-answer",
+        "weight": 0.65
+      }
+    ],
+    "formatRules": [
+      "Paper length is 55 minutes with 18 questions; instructions explicitly say it is designed to be challenging and candidates may not finish, so later questions should be noticeably harder.",
+      "No calculators allowed. Students should try all questions, move on if stuck, and return later; generator should keep a smooth difficulty ramp with a high-ceiling final problem.",
+      "Working must be shown in spaces provided; marks are awarded for correct working even without a final answer, so multi-step questions should be designed with partial-credit milestones.",
+      "Q1 is a pure arithmetic warm-up with multiple subparts (add/subtract/multiply/divide) including at least one harder division and one 2-digit by 2-digit multiplication.",
+      "Early geometry: composite rectilinear shape asking for both perimeter and area; include mixed side lengths and require careful perimeter tracing (not just formula recall).",
+      "Fraction arithmetic requires simplified answers; include denominators with common multiples (e.g., twelfths) and unlike denominators (e.g., sixths and thirds) to test conversion and simplification.",
+      "Percent and fraction-of-money questions appear together (e.g., 30% of £70, a fifth of £70, and a nested operation like 80% of a half of £70).",
+      "Angle-facts question uses several small diagrams labelled “not to scale”; missing angles are straightforward but require standard facts (linear pairs, around a point, etc.).",
+      "Sequences: include arithmetic, geometric, and a non-linear “add increasing odd numbers” type; include at least one sequence of fractions where numerator/denominator follow a pattern.",
+      "Conversion table: given one of fraction/decimal/percentage, fill the other two; require lowest terms for fractions.",
+      "Timetable problem: read a mixed express/stopping table, deduce travel times between stations, fill missing intermediate times using equal segment durations, and combine with an airport-arrival narrative to compute waiting time.",
+      "Area equivalence drawing task: ‘draw a rectangle with the same area as the given shape’ (online version should be implemented as selecting dimensions, dragging corners, or choosing from options; do not rely on freehand drawing).",
+      "Money/constraints problem: pen/pencil pricing with (a) leftover money, (b) maximum count under a constraint, (c) solving for counts given leftover—include at least one system that needs trial/logic (integer solutions).",
+      "Direct proportion problem: multi-part “loaves eaten by scouts” style, varying one factor at a time (number of people, days, quantity) and requiring consistent unit-rate reasoning.",
+      "Ordering task: sort a small set of mixed representations (percentage, fraction, decimal) from smallest to largest; keep values close to test precision.",
+      "Mean/constraint puzzle: four unknown odd positive integers with means of subsets given; requires solving stepwise and checking odd/different constraints.",
+      "Time-interval story: repeated events at fixed intervals (e.g., bottles falling every 5 minutes) from a given start time to find the end time.",
+      "Symmetry completion: reflect a partly drawn shape across a given line of symmetry on a grid (online: click-to-fill squares or mirror points).",
+      "Digit cards: arrange digits to meet targets (largest odd; closest to a given value; largest prime using two digits; maximise a product by choosing 3 digits for each factor).",
+      "Remainder constraints: find a number 0–100 satisfying several modular conditions (remainder problems); include at least one with four mod conditions to create a high-ceiling reasoning item.",
+      "Final puzzle: place digits 1–8 into blanks of a mini arithmetic grid with operations (÷, −, ×, +) that are evaluated in a specified order (left-to-right and top-to-bottom); make this the hardest and most mark-heavy.",
+      "UNKNOWN: exact total marks and mark distribution across questions; approximate by giving higher mark weights to multi-part word problems and the final placement puzzle."
+    ],
+    "difficultyNotes": "Difficulty is driven by breadth plus late-stage reasoning. Early questions are accessible for strong KS2 pupils, but the paper escalates into multi-constraint integer problems, modular remainders, mean-based deduction, and a final placement puzzle with explicit evaluation order. Time pressure is real because several mid-to-late questions are multi-part and mark-heavy."
+  },
+  "english": {
+    "topicWeighting": [
+      {
+        "topic": "UNKNOWN: no English content provided",
+        "weight": 1.0
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "short-answer",
+        "weight": 1.0
+      }
+    ],
+    "formatRules": [
+      "UNKNOWN: no English paper text was provided for this school; do not infer passage style, question stems, or writing tasks until English papers are supplied."
+    ],
+    "difficultyNotes": "UNKNOWN: English difficulty cannot be inferred without English papers."
+  },
+  "markingAndFeedback": {
+    "commonWrongAnswers": [
+      "Rushing arithmetic at the start (carry/borrow errors; long division mistakes) and losing easy marks.",
+      "Forgetting to simplify fractions or mixing up common denominators.",
+      "Percentage misconceptions (treating 30% as 30; mishandling nested operations like 80% of a half).",
+      "Perimeter errors from missing a side on composite shapes or double-counting internal edges.",
+      "Angle-fact errors caused by assuming the diagram is to scale rather than using facts.",
+      "Sequence mistakes from assuming constant difference/ratio when the pattern changes.",
+      "Conversion table errors (e.g., 0.75 to 75% correct but fraction not reduced).",
+      "Timetable misreads (subtracting clock times incorrectly; mixing express vs stopping rows).",
+      "Constraint problems: non-integer answers because the solver didn’t enforce whole-number counts (pens/pencils; remainders).",
+      "Mean puzzle errors from confusing ‘mean of smallest numbers’ with ‘mean of all’ or not enforcing odd/distinct constraints.",
+      "Remainder problems solved by guesswork without systematic checking, leading to near-misses.",
+      "Final grid puzzle: ignoring stated evaluation order (left-to-right/top-to-bottom) and applying standard precedence instead."
+    ],
+    "explanationTone": "Encouraging and step-by-step: show the clean method, highlight the exact place mistakes commonly happen (time subtraction, perimeter tracing, evaluation order), and finish with a quick verification step so the student can self-check."
+  },
+  "generatorHints": [
+    "Do NOT copy any original questions.",
+    "Match the flavour, not the exact content.",
+    "Avoid references to printing or PDFs.",
+    "Keep questions suitable for an online timed exam.",
+    "Keep 18 questions in 55 minutes with a clear ramp: arithmetic warm-up, then mixed-topic multi-part questions, ending with a high-ceiling placement puzzle.",
+    "Design several questions to award method marks naturally (multi-step, intermediate values useful even if final answer missed).",
+    "Include at least one timetable-reading task, one symmetry-on-grid task, one digit-arrangement task, and one modular-remainder task in most generated papers.",
+    "Avoid overly abstract algebra notation; keep reasoning accessible via words, tables, and structured prompts.",
+    "Ensure at least one question explicitly states an evaluation order to create a ‘follow instructions precisely’ trap."
+  ]
+}

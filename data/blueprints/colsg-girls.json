@@ -1,0 +1,150 @@
+{
+  "schoolId": "colsg-girls",
+  "schoolName": "City of London School for Girls",
+  "version": "v1",
+  "summary": "A 45-minute “second assessment” Maths paper that prioritises method and reasoning over speed alone: candidates must show working, sometimes write 1–2 sentence explanations, and tackle a mix of arithmetic, number properties, pattern generalisation and logic puzzles. A distinctive feature is explicit error-spotting: students critique incorrect worked answers and explain the mistake without necessarily finding the correct result. \n\nCity-of-London-School-for-Girls…\n\n",
+  "defaults": {
+    "mixedPaper": {
+      "durationMins": 75,
+      "questionCount": 24,
+      "sections": [
+        {
+          "name": "Maths",
+          "share": 0.5
+        },
+        {
+          "name": "English",
+          "share": 0.5
+        }
+      ]
+    },
+    "mathsOnly": {
+      "durationMins": 45,
+      "questionCount": 22
+    },
+    "englishOnly": {
+      "durationMins": 45,
+      "questionCount": 25
+    }
+  },
+  "maths": {
+    "topicWeighting": [
+      {
+        "topic": "number properties (factors, multiples, squares, constraints)",
+        "weight": 0.16
+      },
+      {
+        "topic": "arithmetic accuracy (integer operations, place value, order of operations)",
+        "weight": 0.1
+      },
+      {
+        "topic": "fractions and rational numbers (operations, simplification, between 0 and 1)",
+        "weight": 0.12
+      },
+      {
+        "topic": "decimals and negative numbers (comparison and subtraction across zero)",
+        "weight": 0.08
+      },
+      {
+        "topic": "interpreting data/graphs (reading bar charts, estimating)",
+        "weight": 0.06
+      },
+      {
+        "topic": "geometry (regular polygons, fraction of area shaded)",
+        "weight": 0.08
+      },
+      {
+        "topic": "measurement and 3D packing (volume, fitting boxes, unit conversion cm↔m)",
+        "weight": 0.1
+      },
+      {
+        "topic": "patterns and algebraic thinking (near-square products, generalisation shortcuts)",
+        "weight": 0.12
+      },
+      {
+        "topic": "logic and truth/lying constraints (systematic case analysis)",
+        "weight": 0.1
+      },
+      {
+        "topic": "symbol/shape equations (deducing values, spotting one incorrect statement)",
+        "weight": 0.08
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "multiple-choice",
+        "weight": 0.0
+      },
+      {
+        "type": "fill-in-the-blank",
+        "weight": 0.18
+      },
+      {
+        "type": "ordering",
+        "weight": 0.0
+      },
+      {
+        "type": "short-answer",
+        "weight": 0.82
+      }
+    ],
+    "formatRules": [
+      "Paper header explicitly states: no calculator; try questions in order; move on if stuck; you might not finish; check work at the end.",
+      "Working is mandatory: the instructions say “You must show your working out” and “Do not erase your working out as you may get marks for it.”",
+      "Some questions require explanation, but only “a short sentence or two, not a long paragraph.” Generators should include brief ‘explain’ prompts and accept concise reasoning.",
+      "Questions are numbered (1–9) with several multi-part items (a/b/c). The generator should create fewer stems but with richer multi-part structure, rather than many tiny one-liners.",
+      "Distinctive “error-spotting” task: present an incorrect solution/claim (arithmetic, graph reading, negative numbers, reflection, fractions) and ask students to identify the mistake and explain it; explicitly state they do not need to compute the correct answer for full credit.",
+      "Include at least one constraint-based ‘work out the number from clues’ problem using properties like: whole number, <100, square number, one less than a multiple, and a stated factor constraint.",
+      "Include at least one integer/square-number reasoning thread with follow-ups that extend beyond integers (e.g., numbers between 0 and 1 that make a product a square), encouraging systematic thinking.",
+      "Include at least one real-life money comparison problem with options and a clear ‘which is cheaper and by how much’ output; use a small price table in-question.",
+      "Include at least one 3D packing/volume maximisation prompt with an explicit ‘you can’t chop up the boxes’ style constraint and mixed units (cm dimensions into m crate).",
+      "Include at least one pattern-generalisation shortcut question that leverages (n−k)(n+k)=n^2−k^2, and explicitly forbid direct multiplication in at least one subpart to force reasoning.",
+      "Include at least one short logic puzzle with statements where exactly one person is lying; require a brief justification, not a full essay.",
+      "Include at least one regular-polygon shaded-fraction question (often a regular hexagon) where the diagram drives the reasoning; keep values exact and simplify fractions.",
+      "Include at least one symbol/shape equation system: several correct equations define values; a second set contains exactly one incorrect equation that must be identified and corrected.",
+      "UNKNOWN: whether there is a first Maths assessment with a different format; this blueprint reflects the ‘second assessment’ only."
+    ],
+    "difficultyNotes": "Compared to typical 11+, difficulty comes less from advanced syllabus content and more from reasoning demands: critiquing flawed solutions, handling constraints cleanly, and generalising patterns without brute-force computation. The paper also leans into multi-part questions that test explanation and method under a 45-minute time limit."
+  },
+  "english": {
+    "topicWeighting": [
+      {
+        "topic": "UNKNOWN: no English content provided",
+        "weight": 1.0
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "short-answer",
+        "weight": 1.0
+      }
+    ],
+    "formatRules": [
+      "UNKNOWN: no English paper text was provided for this school; do not infer passage style, question stems, or writing tasks until English papers are supplied."
+    ],
+    "difficultyNotes": "UNKNOWN: English difficulty cannot be inferred without English papers."
+  },
+  "markingAndFeedback": {
+    "commonWrongAnswers": [
+      "Not following the instruction to show working, or erasing method that could earn method marks.",
+      "In error-spotting tasks, recalculating instead of identifying the specific misconception (place value, interpreting graph scales, subtracting negatives, fraction addition).",
+      "Treating ‘number of intervals’ as ‘number of points’ in measurement/packing contexts; missing the ‘no chopping’ constraint.",
+      "Failing to apply all clue constraints simultaneously in ‘work out the number’ problems (square + factor + modular condition).",
+      "Misreading graphs by comparing bar heights visually rather than reading axes/scales or estimating appropriately.",
+      "Fraction/negative-number sign errors (e.g., subtracting a negative as if it were positive).",
+      "Pattern questions: brute-forcing multiplication despite prompts steering toward near-square reasoning; losing track of k^2 subtraction.",
+      "Logic puzzles: not checking all cases systematically, leading to multiple liars or contradictions."
+    ],
+    "explanationTone": "Supportive and precise: point out the exact step where the reasoning goes wrong, name the underlying idea (e.g., “subtracting a negative increases”), and give a quick ‘how to avoid it’ check in simple language."
+  },
+  "generatorHints": [
+    "Do NOT copy any original questions.",
+    "Match the flavour, not the exact content.",
+    "Avoid references to printing or PDFs.",
+    "Keep questions suitable for an online timed exam.",
+    "Make working and brief explanations part of the expected behaviour (method marks implied; 1–2 sentence explanations).",
+    "Include an explicit error-spotting question set in most papers: short incorrect worked answers spanning different topics.",
+    "Favour multi-part problems that build from a simple start to a harder extension (especially for squares/factors and pattern generalisation).",
+    "Use clean diagrams for reflection/polygons/shape-equations; keep the online UI clear and uncluttered."
+  ]
+}

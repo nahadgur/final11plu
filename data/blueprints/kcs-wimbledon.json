@@ -1,0 +1,146 @@
+{
+  "schoolId": "kcs-wimbledon",
+  "schoolName": "King's College School",
+  "version": "v1",
+  "summary": "A traditional, curriculum-forward Maths paper with a strong emphasis on clear written working: arithmetic, fractions/percentages, linear equations, geometry facts, and number properties. Questions are mostly structured short-answer with multi-part items and occasional “explain why” prompts; there is no multiple-choice in the provided paper.",
+  "defaults": {
+    "mixedPaper": {
+      "durationMins": 75,
+      "questionCount": 24,
+      "sections": [
+        {
+          "name": "Maths",
+          "share": 0.5
+        },
+        {
+          "name": "English",
+          "share": 0.5
+        }
+      ]
+    },
+    "mathsOnly": {
+      "durationMins": 45,
+      "questionCount": 24
+    },
+    "englishOnly": {
+      "durationMins": 45,
+      "questionCount": 25
+    }
+  },
+  "maths": {
+    "topicWeighting": [
+      {
+        "topic": "arithmetic fluency (money, long multiplication/division)",
+        "weight": 0.16
+      },
+      {
+        "topic": "fractions, decimals, percentages (incl. fraction of measures and % of amounts)",
+        "weight": 0.16
+      },
+      {
+        "topic": "linear equations (one-step and two-step, including forming equations from words)",
+        "weight": 0.18
+      },
+      {
+        "topic": "measurement (volume of cuboids, packing/counting cubes, appropriate units)",
+        "weight": 0.08
+      },
+      {
+        "topic": "sequences and pattern spotting (incl. cubes/squares)",
+        "weight": 0.07
+      },
+      {
+        "topic": "geometry properties (parallel/perpendicular, classifying quadrilaterals, marking equal sides/angles)",
+        "weight": 0.12
+      },
+      {
+        "topic": "angle reasoning (missing angles, angle facts; diagrams not to scale)",
+        "weight": 0.09
+      },
+      {
+        "topic": "ratio and proportion (recipe scaling, reverse scaling)",
+        "weight": 0.08
+      },
+      {
+        "topic": "number theory (factors, sums of factors, constraints on coin combinations)",
+        "weight": 0.06
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "multiple-choice",
+        "weight": 0.0
+      },
+      {
+        "type": "fill-in-the-blank",
+        "weight": 0.15
+      },
+      {
+        "type": "ordering",
+        "weight": 0.0
+      },
+      {
+        "type": "short-answer",
+        "weight": 0.85
+      }
+    ],
+    "formatRules": [
+      "Instructions specify: pencil and ruler needed; no calculator; answers written in spaces provided; use spare space for working; check answers at the end.",
+      "Time allowed is 45 minutes; question set is modest in count but many questions have multiple subparts, so pacing matters.",
+      "Most questions explicitly request “showing all your working” or imply it; generators should encourage working even when the final answer is short.",
+      "Questioning style is direct and procedural for core skills (money totals, long multiplication/division, % of amounts), then moves into applied reasoning (film-time allocations, coin totals, recipe scaling, factor-sum puzzle).",
+      "Algebra emphasis is strong: many one-step and two-step linear equations, plus forming an equation from a word description and solving it.",
+      "Geometry includes: marking equal sides/angles/parallel lines on given shapes; identifying named shapes from a labelled point grid (square/rectangle/isosceles triangle/parallelogram/trapezium); and stating shared properties of families of shapes.",
+      "There is at least one explicit explanation prompt (e.g., why a quadrilateral cannot have exactly three right angles); generators should include occasional short reasoning/explanation items alongside calculations.",
+      "Angle questions are diagram-based with the note “diagrams are not drawn to scale”; solutions rely on angle facts rather than measurement.",
+      "Unit sense is tested: some questions ask for the “most appropriate unit” and combine fractions/decimals with measures and mass.",
+      "Proportion is tested via recipe scaling up/down and reverse inference (given 5 eggs, infer intended servings).",
+      "Number theory appears via factors and sums-of-factors framed as an invented “King’s Digit” game; multi-part exploration includes inverse problems and multiple-solution constraints.",
+      "Coins problem uses equal counts of denominations and a total value; generators should include at least one constrained integer-solution problem of this type.",
+      "UNKNOWN: exact mark allocation and whether any sections are separately timed; keep a single continuous 45-minute flow unless future papers show a different structure."
+    ],
+    "difficultyNotes": "Overall difficulty is moderate-to-hard for 11+ because it expects reliable core skills under time pressure plus competent algebra, geometry facts, and multi-constraint reasoning (time allocations, coin totals, factor-sum inverses). It is less “novel puzzle” heavy than some schools, but the later number-theory game and constraint problems provide stretch."
+  },
+  "english": {
+    "topicWeighting": [
+      {
+        "topic": "UNKNOWN: no English content provided",
+        "weight": 1.0
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "short-answer",
+        "weight": 1.0
+      }
+    ],
+    "formatRules": [
+      "UNKNOWN: no English paper text was provided in the uploaded materials for this school; do not infer passage style, question stems, or writing tasks until English papers are supplied."
+    ],
+    "difficultyNotes": "UNKNOWN: English difficulty cannot be inferred without English papers."
+  },
+  "markingAndFeedback": {
+    "commonWrongAnswers": [
+      "Arithmetic slips in money and long multiplication/division (place value errors; forgetting decimal alignment).",
+      "Percentage and fraction-of-a-quantity errors (treating 28% as 0.28 vs 28; mishandling mixed units).",
+      "Equation-solving mistakes (incorrect inverse operation order; mishandling fractions like (1/4)x = 7).",
+      "Geometry vocabulary confusion (trapezium vs parallelogram; isosceles conditions; parallel marking).",
+      "Angle-fact errors caused by assuming diagrams are to scale or forgetting supplementary/vertically-opposite angle rules.",
+      "Proportion scaling errors (scaling ingredients inconsistently; failing to use a single scale factor).",
+      "Factor-sum misconceptions (missing 1 or the number itself; mixing up factors with multiples; overlooking multiple solutions).",
+      "Constraint problems mishandled by not setting up integer conditions (coin counts equal; totals must match exactly)."
+    ],
+    "explanationTone": "Clear, calm, and methodical: restate the goal, show the minimal reliable steps, and include a quick reason/check (units check, substitution back into an equation, or verifying factors) so a child can self-correct."
+  },
+  "generatorHints": [
+    "Do NOT copy any original questions.",
+    "Match the flavour, not the exact content.",
+    "Avoid references to printing or PDFs.",
+    "Keep questions suitable for an online timed exam.",
+    "Prefer a straightforward, syllabus-aligned style: lots of short-answer items with working, plus a handful of multi-part applied questions.",
+    "Include a noticeable algebra component (several one-step and two-step equations, plus at least one ‘form an equation then solve’ word problem).",
+    "Include geometry identification/marking tasks and a small set of angle-fact questions labelled ‘not to scale’.",
+    "Include at least one proportion/recipe scaling task and one number-theory ‘game’ built on factors and sums of factors.",
+    "Use clean integer-friendly numbers for most questions, but allow a few decimals and percentages to test accuracy."
+  ]
+}

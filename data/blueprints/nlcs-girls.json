@@ -1,0 +1,138 @@
+{
+  "schoolId": "nlcs-girls",
+  "schoolName": "North London Collegiate School",
+  "version": "v1",
+  "summary": "An English paper with a literary, close-reading focus and two substantial writing tasks. Reading is short-answer and evidence-led (quotations, language effects, structure/punctuation), and writing is split between a narrative continuation and a reflective/discursive personal response.",
+  "defaults": {
+    "mixedPaper": {
+      "durationMins": 90,
+      "questionCount": 24,
+      "sections": [
+        {
+          "name": "Maths",
+          "share": 0.5
+        },
+        {
+          "name": "English",
+          "share": 0.5
+        }
+      ]
+    },
+    "mathsOnly": {
+      "durationMins": 60,
+      "questionCount": 24
+    },
+    "englishOnly": {
+      "durationMins": 75,
+      "questionCount": 25
+    }
+  },
+  "maths": {
+    "topicWeighting": [
+      {
+        "topic": "UNKNOWN: no maths paper provided",
+        "weight": 1.0
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "short-answer",
+        "weight": 1.0
+      }
+    ],
+    "formatRules": [
+      "UNKNOWN: no maths paper content provided for this school in this upload."
+    ],
+    "difficultyNotes": "UNKNOWN: maths difficulty cannot be inferred without a maths paper."
+  },
+  "english": {
+    "topicWeighting": [
+      {
+        "topic": "reading comprehension (retrieval + inference, evidence-led)",
+        "weight": 0.3
+      },
+      {
+        "topic": "writer's methods and language effects (word choice, imagery, atmosphere)",
+        "weight": 0.2
+      },
+      {
+        "topic": "structure and punctuation effects (mood shifts, pacing, sentence shaping)",
+        "weight": 0.12
+      },
+      {
+        "topic": "character understanding (motivation, relationships, attitudes)",
+        "weight": 0.12
+      },
+      {
+        "topic": "vocabulary and paraphrase (own words; equivalent phrases)",
+        "weight": 0.1
+      },
+      {
+        "topic": "creative writing: narrative continuation",
+        "weight": 0.1
+      },
+      {
+        "topic": "discursive/personal writing: discuss a viewpoint with examples",
+        "weight": 0.06
+      }
+    ],
+    "questionTypes": [
+      {
+        "type": "short-answer",
+        "weight": 0.92
+      },
+      {
+        "type": "fill-in-the-blank",
+        "weight": 0.08
+      },
+      {
+        "type": "multiple-choice",
+        "weight": 0.0
+      },
+      {
+        "type": "ordering",
+        "weight": 0.0
+      }
+    ],
+    "formatRules": [
+      "Total time allowed is 75 minutes. Paper is split into Part A Reading (approx. 35 minutes) and Part B Writing (approx. 40 minutes).",
+      "Reading guidance includes: spend about 5 minutes reading the story and the questions; candidates may highlight/underline; paragraphs are numbered and questions refer to specific paragraphs.",
+      "Reading questions are all open-response (no multiple-choice). Many questions are multi-part, and marks per part are shown; the generator should mirror multi-part numbering and mark-weighted depth (1 mark retrieval up to extended 10 mark response).",
+      "Evidence expectations are explicit: several questions require short quotations to support points, and higher-mark questions require quotations plus comments on language choices.",
+      "Include a mix of question intents: (a) straightforward retrieval (what sounds/what happens), (b) descriptive response supported by quotes, (c) inference about feelings/motivation with a 'why' justification, (d) character judgement (what we learn about a character and what this suggests), (e) writer's atmosphere creation using two quotations with explanation of effects.",
+      "Include at least one 'explore the effects of word choice' question that quotes a phrase and asks for analysis of how it shapes meaning.",
+      "Include a question explicitly about mood change near the end of the extract and require discussion of how structure and punctuation reflect that change (higher-mark, analytical).",
+      "Include a final extended reading response (high marks) asking what we learn about the protagonist's character, requiring multiple quotations and language commentary.",
+      "Include a short vocabulary task: provide several underlined words from the passage and ask for equivalent phrases/meanings as used in context (each worth 1 mark). This should be implemented as fill-in short text fields online.",
+      "Writing is split into two sections of approximately 20 minutes each, and each section is intended to start on a separate page (online: separate screens/steps).",
+      "Writing Section 1 is a narrative continuation of the reading extract, with a clear instruction about where to begin (e.g., next-day action) but not requiring completion of the whole story.",
+      "Writing Section 2 is discursive/reflective: candidates discuss a statement about life/experience and support their view with examples from their own life; tone should be thoughtful and structured rather than purely story-like.",
+      "Reading and Writing are both marked out of 50, implying an even overall weighting across the paper.",
+      "UNKNOWN: explicit technical criteria for writing (SPaG, paragraphing, figurative language) are not listed in the document; default feedback should still assess clarity, accuracy, organisation, and appropriate detail."
+    ],
+    "difficultyNotes": "Reading difficulty comes from evidence-led inference and analysis rather than tricky formats: higher marks reward precise quotation selection and explanation of language/structure effects. Writing difficulty comes from producing two distinct pieces under tight time limits: a controlled narrative continuation and a structured personal-discussion response."
+  },
+  "markingAndFeedback": {
+    "commonWrongAnswers": [
+      "Giving general impressions without quotations when the question asks for evidence.",
+      "Using overly long quotations instead of short, targeted ones tied to a specific point.",
+      "Retelling the story rather than answering the question focus (especially on character and mood).",
+      "Explaining what happens instead of analysing how language creates mood/atmosphere.",
+      "For structure/punctuation questions: listing techniques (short sentences, questions) without linking to effect (tension, pace, uncertainty).",
+      "Vocabulary questions answered with a near-synonym that ignores nuance or context-specific meaning.",
+      "In narrative writing: drifting away from the established tone/setting or introducing implausible events that break realism.",
+      "In discursive writing: writing a story instead of a discussion, or giving opinions without concrete personal examples and reflection."
+    ],
+    "explanationTone": "Warm, clear, and specific: for reading, point to a short quote and explain its effect in simple terms; for writing, give 2-3 actionable improvements (one organisation/clarity, one detail/voice, one accuracy) with a short model sentence or paragraph plan."
+  },
+  "generatorHints": [
+    "Do NOT copy any original questions.",
+    "Match the flavour, not the exact content.",
+    "Avoid references to printing or PDFs.",
+    "Keep questions suitable for an online timed exam.",
+    "Keep the structure: Part A reading with numbered paragraphs and open-response questions including quotation-based analysis, followed by Part B writing with two distinct tasks (narrative continuation + discursive personal discussion).",
+    "In reading, include a clear marks gradient: several 1-3 mark short questions, a mid-mark language/atmosphere question using two quotations, and one extended 8-10 mark character question requiring multiple quotations and language commentary.",
+    "Include a short vocabulary-in-context task asking for equivalent phrases/meanings of underlined words.",
+    "For writing, separate the two tasks into different screens with their own timers (20 minutes each by default) and ensure task 2 is explicitly discursive rather than creative narrative."
+  ]
+}
